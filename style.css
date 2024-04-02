@@ -1,0 +1,41 @@
+*{
+  text-align: center;
+}
+h1{
+  margin-top: 20px;
+  color:red;
+}
+.teja{
+  border: rgb(255, 0, 0) solid px;
+  margin: 200px;
+  padding:50px;
+  width:  600px;
+  height: 400px;
+    margin-top: 30px;
+    margin-left: 350px;
+    background-color:#FFEBB2;
+}
+.body{
+  background-color:#B3C8CF;
+  position: absolute;
+}
+.add{
+  background:blue;
+  border-radius: 30px;
+}
+.sub{
+  background:blue;
+  border-radius: 30px;
+}
+.mul{
+  background:blue;
+  border-radius: 30px;
+}
+.div{
+  background:blue;
+  border-radius: 30px;
+}
+.mod{
+  background:blue;
+  border-radius: 30px;
+}

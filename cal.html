@@ -1,0 +1,92 @@
+<html>
+<head>
+  <title>demo of java script</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script>
+    function add(){
+    var firstOp,secondOp,result,numbers;
+    firstOP=document.getElementById('first').value;
+    secondOp=document.getElementById('second').value;
+    // numbers=document.getElementById('number').value;
+
+
+    result=parseInt(firstOP)+ parseInt(secondOp);
+
+    alert("addtion of two numbers is"+result);
+    }
+    function sub(){
+    var firstOp,secondOp,result;
+    firstOP=document.getElementById('first').value;
+    secondOp=document.getElementById('second').value;
+    result=parseInt(firstOP)- parseInt(secondOp);
+
+    alert("subtraction of two numbers is"+result);
+    }
+    function mul(){
+    var firstOp,secondOp,result;
+    firstOP=document.getElementById('first').value;
+    secondOp=document.getElementById('second').value;
+    result=parseInt(firstOP)* parseInt(secondOp);
+
+    alert("multiplication of two numbers is"+result);
+    }
+    function div(){
+    var firstOp,secondOp,result;
+    firstOP=document.getElementById('first').value;
+    secondOp=document.getElementById('second').value;
+    result=parseInt(firstOP)/ parseInt(secondOp);
+
+    alert("division of two numbers is"+result);
+    }
+
+    function mod(){
+    var firstOp,secondOp,result;
+    firstOP=document.getElementById('first').value;
+    secondOp=document.getElementById('second').value;
+    result=parseInt(firstOP)% parseInt(secondOp);
+
+    alert("modulus of two numbers is"+result);
+    }
+
+  </script>
+
+  </head>
+  <body class="body">
+    <div class="teja">
+     <center>
+    <h1>Simple Calculator</h1>
+    <br>
+    <label type="text">Enter First Number</label>
+    <input id="first" type="text" ></input>
+    <br>
+    <br>
+    <label type="text">Enter Second Number</label>
+    <input  id="second"type="text"></input>
+    <br>
+    <br>
+    </center>
+    <!-- <label type="text">eneter the value of n</label>
+    <input  id="number" type="text"></input>
+    <br>
+    <br>
+    <label type="text">enter the age</label>
+    <input  id="vote" type="number" ></input>
+<br><br> -->
+
+    <button class="btn btn-outline-primary" type="button" value="add" onclick=add()>+</button>
+    <button class="btn btn-outline-primary"  type="button" value="add" onclick=sub()>-</button>
+    <button class="btn btn-outline-primary" type="button" value="add" onclick=mul()>*</button>
+    <button class="btn btn-outline-primary" type="button" value="add" onclick=div()>/</button>
+    <button class="btn btn-outline-primary" type="button" value="add" onclick=mod()>%</button>
+    <!-- <button type="button" value="add" onclick=number()>number</button>
+    <button type="button" value="add" onclick=voter()>age submit</button> -->
+  </div>
+
+
+
+
+
+</body>
+
+</html>
